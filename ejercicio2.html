@@ -1,0 +1,24 @@
+<!-- algoritmo que calcule el sueldo anual de un empleado, teniendo presente que este recibe una bonificación 
+fija mensual. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sueldo = parseFloat(prompt("Digite sueldo mensual: "))
+        var bono = (sueldo * 5) / 100
+        
+
+        var resultado = sueldo * 12
+        var total = (resultado + bono) * 12
+
+        alert("Su sueldo anual es de: "+ resultado + " con una bonificación del 5% del mismo es " + total)
+
+    </script>
+</body>
+</html>
